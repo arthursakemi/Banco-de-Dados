@@ -10,7 +10,7 @@ hora = '12:00'
 WHERE codm = 1 and codp = 4;
 
 UPDATE pacientes
-SET doenca = 'cancer'
+SET doenca = 'cancer', idade = idade +1
 WHERE nome = 'Ana';
 
 UPDATE consultas
